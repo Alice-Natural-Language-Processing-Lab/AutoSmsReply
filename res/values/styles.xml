@@ -1,0 +1,12 @@
+<resources>
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme"
+           parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowActionBarOverlay">false</item>
+
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+    
+    
+</resources>
